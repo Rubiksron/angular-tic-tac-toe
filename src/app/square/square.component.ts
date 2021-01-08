@@ -9,5 +9,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class SquareComponent {
-  @Input() value: 'X' | 'O';
+  @Input()
+  value: 'X' | 'O' = "X";
 }

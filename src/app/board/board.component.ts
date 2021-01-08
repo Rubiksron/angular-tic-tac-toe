@@ -13,7 +13,7 @@ export class BoardComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.newGame();
   }
 
@@ -51,7 +51,7 @@ export class BoardComponent implements OnInit {
       if (
         this.squares[a] &&
         this.squares[a] === this.squares[b] &&
-        this.squres[a] === this.squares[c]
+        this.squares[a] === this.squares[c]
       ) {
         return this.squares[a]
       }
